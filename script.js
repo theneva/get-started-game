@@ -33,7 +33,6 @@ function update() {
     context.fillStyle = 'white';
     context.fillRect(0, 0, canvas.width, canvas.height);
 
-    console.log('hi');
     // draw the player
     // set the fill color
     context.fillStyle = player.color;
