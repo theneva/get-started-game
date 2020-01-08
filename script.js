@@ -50,10 +50,12 @@ function update() {
 // every <millisecondsBetweenFrames>, run the function called onFrame
 setInterval(update, millisecondsBetweenFrames);
 
-// When you press a key
-function move(keyEvent) {
-}
-window.addEventListener('keydown', function (event) {
+window.addEventListener(
+    // When you press a key…
+    'keydown',
+
+    // … run this code
+function (event) {
     if (event.key === 'ArrowRight') {
         // move the player 5 px to the right
         player.x = player.x + 5;
