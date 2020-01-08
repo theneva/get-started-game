@@ -1,0 +1,32 @@
+<!-- This is a comment -->
+
+<!-- doctype and <html> have to be here -->
+<!doctype html>
+<html>
+<!-- Stuff inside <head> is meta information about the web page -->
+<head>
+    <!-- <title> shows up on the tab in the browser -->
+    <title>My Awesome Game</title>
+</head>
+<body>
+<!-- The id field is used in script.js-->
+<canvas id="game" height="400" width="600"></canvas>
+
+<!-- This tag lets you write CSS code to style the things on -->
+<!-- the website, such as a border around the game screen -->
+<style>
+    /* This is a comment inside <style>. We're now writing CSS code! */
+
+    /* #game means the element with id="game" */
+    #game {
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+    }
+</style>
+
+<!-- This loads and executes the code in script.js -->
+<!-- It needs to happen _after_ the rest of the page is loaded. -->
+<script src="./script.js"></script>
+</body>
+</html>
